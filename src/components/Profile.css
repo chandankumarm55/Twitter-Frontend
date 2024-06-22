@@ -1,0 +1,113 @@
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 55%;
+    border-right: 1px solid aliceblue;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.profile-container::-webkit-scrollbar {
+    width: 0;
+    /* hide the scrollbar */
+    background: transparent;
+    /* optional: set a background color */
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2px;
+}
+
+.profile-info {
+    margin-left: 10px;
+}
+
+.profile-info h5,
+.profile-info p {
+    margin: 0;
+    padding: 0;
+}
+
+.back-button {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.profile-banner {
+    width: 100%;
+    height: 40%;
+}
+
+.profile-avatar-container {
+    position: relative;
+}
+
+.profile-info {
+    font-weight: 300;
+}
+
+.avatar-wrapper {
+    position: absolute;
+    bottom: -50px;
+    left: 15%;
+    transform: translateX(-50%);
+}
+
+.profile-avatar {
+    border: 3px solid white;
+}
+
+.profile-information {
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.profile-details h3 {
+    margin-bottom: 0.5rem;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.about {
+    margin-top: 0.5rem;
+    font-weight: 400;
+}
+
+.about span {
+    color: #4c4242;
+}
+
+.about .snap {
+    color: #ff6347;
+}
+
+.edit-profile-button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #1DA1F2;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    position: absolute;
+    right: 6%;
+    cursor: pointer;
+    justify-content: end;
+}
+
+.edit-profile-button:hover {
+    background-color: #010101;
+}
+
+.LINK {
+    color: white;
+    text-decoration: none;
+}
+
+.profile-details {}

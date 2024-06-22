@@ -1,0 +1,87 @@
+.right-sidebar {
+    width: 25%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    background-color: transparent;
+}
+
+.search-container {
+    margin-bottom: 20px;
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+    border-radius: 30px;
+}
+
+.search-input {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.search-input-text {
+    border: none;
+    outline: none;
+    width: 100%;
+    color: white;
+    margin-left: 10px;
+    background-color: transparent;
+}
+
+.who-to-follow {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(43, 41, 41);
+    border-radius: 10px;
+}
+
+.follow-list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: autos;
+}
+
+.follow-item {
+    overflow-y: auto;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: black;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.user-details {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.follow-item h5 {
+    font-weight: 500;
+    margin: 0;
+}
+
+.follow-item p {
+    font-weight: 400;
+    margin: 0;
+}
+
+.profile {
+    position: absolute;
+    right: 20px;
+}
+
+.follow-item button {
+    margin-left: auto;
+    padding: 8px 12px;
+    background: #1DA1F2;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}

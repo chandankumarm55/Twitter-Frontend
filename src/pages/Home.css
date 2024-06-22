@@ -1,0 +1,36 @@
+/* Home.css */
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+.lessscreen-error {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    display: none;
+    background-image: linear-gradient(to bottom, #ff7e5f, #feb47b);
+    align-items: center;
+}
+
+.error-message {
+    text-align: center;
+    padding-top: 100px;
+    /* Example background color with opacity */
+    border-radius: 10px;
+}
+
+@media (max-width:800px) {
+    .lessscreen-error {
+        display: block;
+    }
+    .container {
+        display: none;
+    }
+}

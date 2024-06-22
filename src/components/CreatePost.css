@@ -1,0 +1,85 @@
+.create-post-container {
+    border-bottom: 1px solid aliceblue;
+    padding: 10px;
+}
+
+.post-tabs {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.post-tab {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: 1px solid aliceblue;
+}
+
+.post-tab:hover {
+    background-color: #302c2d;
+}
+
+.post-tab h4 {
+    color: rgb(143, 143, 144);
+    margin: 0;
+}
+
+.post-input {
+    display: flex;
+    align-items: center;
+}
+
+.belowunderline {
+    position: relative;
+}
+
+.belowunderline h4 {
+    color: white;
+}
+
+.belowunderline::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    width: 70px;
+    height: 4px;
+    background-color: #1D9BF0;
+}
+
+.post-input input {
+    border: none;
+    outline: none;
+    margin-left: 5px;
+    font-size: large;
+    background-color: transparent;
+    color: white;
+    width: 100%;
+    font-weight: 500;
+}
+
+.post-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.post-options button {
+    padding: 8px 20px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-size: large;
+    transition: background-color 0.3s;
+    background-color: #195882;
+}
+
+.post-options button:hover {
+    background-color: #5aa9e6;
+}

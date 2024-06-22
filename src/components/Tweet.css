@@ -1,0 +1,89 @@
+.tweet-container {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border-bottom: 1px solid aliceblue;
+}
+
+.tweet-content {
+    display: flex;
+    align-items: center;
+}
+
+.tweet-content h5 {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+
+.tweet-content svg {
+    margin-left: 2px;
+    color: #078dfa;
+}
+
+.tweet-content p {
+    margin: 0;
+    color: #8b9095;
+    font-weight: 200;
+}
+
+.tweet-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.tweet-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0px;
+}
+
+.tweet-actions>div {
+    display: flex;
+    align-items: center;
+}
+
+.tweet-actions p {
+    margin: 0;
+    margin-left: 5px;
+    color: #657786;
+}
+
+.tweet-actions div>div {
+    padding: 5px;
+    cursor: pointer;
+    color: #657786;
+}
+
+.comment:hover {
+    color: #078dfa;
+}
+
+.bookmark:hover {
+    color: aquamarine;
+}
+
+.like:hover {
+    color: rgb(231, 16, 88);
+}
+
+.like:active {
+    background-color: rgb(231, 16, 88);
+    border-radius: 10px;
+    color: white;
+}
+
+.delete:hover {
+    color: red;
+}
+
+.delete:active {
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+}

@@ -1,0 +1,13 @@
+.feed-container {
+    width: 55%;
+    border-right: 1px solid aliceblue;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.feed-container::-webkit-scrollbar {
+    width: 0;
+    /* hide the scrollbar */
+    background: transparent;
+    /* optional: set a background color */
+}
