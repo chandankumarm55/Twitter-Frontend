@@ -36,7 +36,8 @@ A full-stack Twitter clone built with the MERN stack, featuring secure authentic
     npm install
     ```
 4. Edit the Backend URL in utilities/constant.js
-   ``` backendUrl='http://localhost:5000'
+   ```bash
+   backendUrl='http://localhost:5000'
    ```
    
 5. Start the development server:
